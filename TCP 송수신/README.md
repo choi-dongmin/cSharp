@@ -27,8 +27,8 @@ using System.IO;
 
 - 선언
 ```C#
-		StreamReader streamReader1;  // 데이타 읽기 위한 스트림리더
-		StreamWriter streamWriter1;  // 데이타 쓰기 위한 스트림라이터 
+	StreamReader streamReader1;  // 데이타 읽기 위한 스트림리더
+	StreamWriter streamWriter1;  // 데이타 쓰기 위한 스트림라이터 
 ```
 
 
