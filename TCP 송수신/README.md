@@ -30,7 +30,9 @@ using System.IO;
 		StreamReader streamReader1;  // 데이타 읽기 위한 스트림리더
 		StreamWriter streamWriter1;  // 데이타 쓰기 위한 스트림라이터 
 ```
-<br>
+
+
+
 
 - 연결하기 버튼 클릭 시 백그라운드에서 쓰레드 시작  
 ```C#
@@ -41,6 +43,9 @@ using System.IO;
             thread1.Start(); // thread1 시작.
         }
 ```
+
+
+
 
 
 - TCP 시작 요청 후 승인 시 스트림을 통한 TEXT 데이터 송/수신 시작 함수
@@ -76,6 +81,9 @@ using System.IO;
 ```
 
 
+
+
+
 - richTextbox 에 쓰기 함수
 ```C#
         private void writeRichTextbox(string str)  
@@ -88,6 +96,8 @@ using System.IO;
 >> [Reference](https://cartiertk.tistory.com/67)
 
 
+
+
 - txtMessag의 데이터 전송
 ```C#
         private void sendText() 
@@ -97,6 +107,9 @@ using System.IO;
             streamWriter1.WriteLine(sendData1);  // 스트림라이터를 통해 데이타를 전송
         }
 ```
+
+
+
 
 - 클릭 혹은 엔터 입력 시 `sendText` 함수 사용
 ```C#
@@ -113,6 +126,8 @@ using System.IO;
             } 
         }
 ```
+
+
 
 
 - 서버 종합
@@ -210,8 +225,15 @@ namespace WindowsFormsApplication1
 }
 ```
 
+
+
+
 > Winforms 디자인 및 출력
 ![화면 캡처 2023-05-04 160210](https://user-images.githubusercontent.com/57117748/236135654-c2e3f846-c3c5-4282-86ba-d13fad370d6f.png)
+
+
+
+
 
 
 ### TCP 클라이언트
@@ -233,11 +255,16 @@ using System.Net.Sockets;
 using System.IO; 
 ```
 
+
+
+
 - 선언
 ```C#
        StreamReader streamReader;  // 데이타 읽기 위한 스트림리더
        StreamWriter streamWriter;  // 데이타 쓰기 위한 스트림라이터 
 ```
+
+
 
 
 - 연결하기 버튼 클릭 시 백그라운드에서 쓰레드 시작  
@@ -249,6 +276,8 @@ using System.IO;
             thread1.Start(); // thread1 시작.
         }
 ```
+
+
 
 
 - TCP 시작 요청 후 승인 시 스트림을 통한 TEXT 데이터 송/수신 시작 함수
@@ -279,6 +308,8 @@ private void connect()  // thread1에 연결된 함수. 메인폼과는 별도�
 ```
 
 
+
+
 - richTextbox 에 쓰기 함수
 ```C#
         private void writeRichTextbox(string data)  
@@ -291,6 +322,9 @@ private void connect()  // thread1에 연결된 함수. 메인폼과는 별도�
 >>[Reference](https://cartiertk.tistory.com/67)
 
 
+
+
+
 - - txtMessag의 데이터 전송
 ```C#
         private void sendText() 
@@ -300,6 +334,9 @@ private void connect()  // thread1에 연결된 함수. 메인폼과는 별도�
             streamWriter.WriteLine(sendData1);   // 스트림라이터를 통해 데이타를 전송
         }
 ```
+
+
+
 
 
 - 클릭 혹은 엔터 입력 시 `sendText` 함수 사용
@@ -317,6 +354,9 @@ private void connect()  // thread1에 연결된 함수. 메인폼과는 별도�
             } 
         }
 ```
+
+
+
 
 
 - 서버 종합
@@ -410,6 +450,9 @@ namespace WindowsFormsApplication1
 }
 
 ```
+
+
+
 
 > Winforms 디자인 및 출력
 ![화면 캡처 2023-05-04 160220](https://user-images.githubusercontent.com/57117748/236137177-a810d575-2dd2-4b0e-a036-669524e8169d.png)
