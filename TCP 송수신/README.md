@@ -84,7 +84,8 @@ using System.IO;
             richTextBox.Invoke((MethodInvoker)delegate { richTextBox.ScrollToCaret(); });  // 스크롤을 젤 밑으로.
         }
 ```
-> Invoke() 설명 ---> [Reference](https://cartiertk.tistory.com/67)
+> Invoke() 설명
+>> [Reference](https://cartiertk.tistory.com/67)
 
 
 - txtMessag의 데이터 전송
@@ -286,7 +287,8 @@ private void connect()  // thread1에 연결된 함수. 메인폼과는 별도�
             richTextBox.Invoke((MethodInvoker)delegate { richTextBox.ScrollToCaret(); });  // 스크롤을 젤 밑으로.
         }
 ```
-> Invoke() 설명 ---> [Reference](https://cartiertk.tistory.com/67)
+> Invoke() 설명
+>>[Reference](https://cartiertk.tistory.com/67)
 
 
 - - txtMessag의 데이터 전송
