@@ -30,7 +30,7 @@ using System.IO;
 		StreamReader streamReader1;  // 데이타 읽기 위한 스트림리더
 		StreamWriter streamWriter1;  // 데이타 쓰기 위한 스트림라이터 
 ```
-
+<br>
 
 - 연결하기 버튼 클릭 시 백그라운드에서 쓰레드 시작  
 ```C#
