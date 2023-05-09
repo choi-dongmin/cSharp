@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Visual Studio 2012\Projects\시리얼통신\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.exe.config
+C:\Users\User\Documents\Visual Studio 2012\Projects\시리얼통신\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.exe
+C:\Users\User\Documents\Visual Studio 2012\Projects\시리얼통신\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.pdb
+C:\Users\User\Documents\Visual Studio 2012\Projects\시리얼통신\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.Form1.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\시리얼통신\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2012\Projects\시리얼통신\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2012\Projects\시리얼통신\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.exe
+C:\Users\User\Documents\Visual Studio 2012\Projects\시리얼통신\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.pdb
